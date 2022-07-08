@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+}
+
+/* main container */
+.main_container {
+  height: 100%;
+  width: 100%;
+}
+
+.upper_container {
+  width: 1920px;
+  max-width: 100%;
+  height: 720px;
+  background-image: url("./img/home-bg-1.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.chaos_header {
+  font-size: 14px;
+  line-height: 0px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Poppins";
+  background: none !important;
+}
+
+.container-fluid {
+  justify-content: space-around !important;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-collapse>ul>li {
+  align-self: center;
+}
+
+.navbar-collapse>ul>li>a {
+  color: white;
+}
+
+.navbar-collapse>ul {
+  display: flex;
+  justify-content: flex-end;
+  width: -webkit-fill-available;
+}
+
+.dropdown-menu {
+  line-height: 1rem;
+}
+
+.text_content {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-35%, -70%);
+}
+
+.text_content>.text_content_1 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+.text_content>.text_content_2 {
+  font-size: 100px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+.text_content>.text_content_3 {
+  font-size: 60px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+/* containner1 */
+.container1 {
+  width: 100%;
+  height: 720px;
+  display: flex;
+  gap: 2rem;
+}
+
+.left_container1, .right_container1 {
+  width: 50%;
+}
+.left_container1_image {
+  float: right
+}
+
+.right_container1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.right_container1_heading_1, .right_container1_heading_2 {
+  font-size: 35px;
+  line-height: 45px;
+  color: #212121;
+  font-weight: 600;
+  font-family: "Montserrat";
+  margin: 0;
+}
+
+.right_container1_heading_2 {
+  font-weight: 500;
+}
+
+.right_container1_heading_3 {
+  width: 624px;
+  height: 51px;
+  font-size: 14px;
+  line-height: 30px;
+  color: #878787;
+  font-weight: 400;
+  font-family: "Open Sans";
+  margin: 0;
+  margin-top: 1rem;
+}
+
+.right_container1_images {
+  width: 78px;
+  height: 72px;
+}
+
+/* container2 */
+.container2 {
+  height: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  background-image: url("./img/pattern-parallax.jpg");
+  background-size: cover;
+}
+
+.container2_item1 {
+  font-size: 60px;
+line-height: 35px;
+color: #f95d80;
+font-weight: 700;
+font-family: "Open Sans";
+text-align: center;
+}
+.container2_item2 {
+  font-size: 25px;
+letter-spacing: 1px;
+line-height: 35px;
+color: #212121;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+}
